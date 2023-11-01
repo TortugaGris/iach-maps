@@ -1,8 +1,14 @@
 <ng-container *ngIf="data$ | async as data">
-  <svg id="church-location-map" [attr.width]="width" [attr.height]="height">
+  <svg *ngIf="data.map && data.church" id="church-location-map" [attr.width]="width" [attr.height]="height">
     <g class="mark">
-      <path *ngFor="let feature of data.features" [attr.d]="path(feature)"></path>
+      <path *ngFor="let feature of data.map.features" [attr.d]="path(feature)"></path>
+      <ng-container *ngFor="let church of data.church">
+        <circle *ngIf="projection([church.lng, church.lat]) as position"
+            [attr.cx]="position[0]"
+            [attr.cy]="position[1]"
+            [attr.r]="markRadius"
+        ></circle>
+      </ng-container>
     </g>
   </svg>
-  <!-- {{data.features | json}} -->
 </ng-container>
