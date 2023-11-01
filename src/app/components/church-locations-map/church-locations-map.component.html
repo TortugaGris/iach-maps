@@ -1,5 +1,5 @@
 <ng-container *ngIf="data$ | async as data">
-  <svg *ngIf="data.map && data.church" id="church-location-map" [attr.width]="width" [attr.height]="height">
+  <svg *ngIf="data.map && data.church" id="church-location-map" [attr.width]="width" [attr.height]="height" class="map-container">
     <g class="mark">
       <path *ngFor="let feature of data.map.features" [attr.d]="path(feature)"></path>
       <ng-container *ngFor="let church of data.church">

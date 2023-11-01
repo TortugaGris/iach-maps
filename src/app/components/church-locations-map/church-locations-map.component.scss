@@ -1,7 +1,16 @@
+:host {
+  display: block;
+  width: 100%;
+}
+.map-container {
+  display: block;
+  margin: auto;
+}
 .mark path {
   fill: #137B80;
 }
 
 .mark circle {
   fill: red;
+  opacity: 0.3;
 }

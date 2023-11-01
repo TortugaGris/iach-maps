@@ -7,6 +7,7 @@ import { combineLatest, map } from 'rxjs';
 interface ChurchData {
     city: string;
     name: string;
+    diocesis: string;
     lat: number;
     lng: number;
 }
@@ -17,9 +18,9 @@ interface ChurchData {
     styleUrls: ['./church-locations-map.component.scss']
 })
 export class ChurchLocationsMapComponent {
-    @Input() width = 400;
-    @Input() height = 1000;
-    @Input() markRadius = 3;
+    @Input() width = 1600;
+    @Input() height = 4000;
+    @Input() markRadius = 5;
 
     constructor(private http: HttpClient) {}
 
@@ -30,7 +31,7 @@ export class ChurchLocationsMapComponent {
         map(([map, church]) => ({map, church}))
     );
 
-    public projection = geoNaturalEarth1().center([-67, -37]).scale(1400).translate([this.width/2, this.height/2]);
+    public projection = geoNaturalEarth1().center([-67, -37]).scale(5600).translate([this.width/2, this.height/2]);
     public path = geoPath(this.projection);
 
     private getMapData() {

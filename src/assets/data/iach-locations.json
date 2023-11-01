@@ -1,8 +1,233 @@
 [
+    {
+    "city": "Arica",
+    "name": "San Andrés",
+    "diocesis": "Valparaíso",
+    "lat": -18.48158187106481,
+    "lng": -70.31857792518325
+  },
+  {
+    "city": "Antofagasta",
+    "name": "Del Salvador",
+    "diocesis": "Valparaíso",
+    "lat": -23.66287681143996,
+    "lng": -70.39578957770694
+  },
   {
     "city": "La Serena",
     "name": "El Redentor",
+    "diocesis": "Valparaíso",
     "lat": -29.965314936059528,
     "lng": -71.26622118808822
+  },
+  {
+    "city": "Valparaíso",
+    "name": "Anglicana de Valparaíso",
+    "diocesis": "Valparaíso",
+    "lat": -33.026928324687304,
+    "lng": -71.63542009823044
+  },
+  {
+    "city": "Valparaíso",
+    "name": "San Marcos",
+    "diocesis": "Valparaíso",
+    "lat": -33.05456281528059,
+    "lng": -71.64505568993906
+  },
+  {
+    "city": "Viña del Mar",
+    "name": "Antioquía",
+    "diocesis": "Valparaíso",
+    "lat": -32.99217028660528,
+    "lng": -71.50647140053897
+  },
+  {
+    "city": "Viña del Mar",
+    "name": "San Juan",
+    "diocesis": "Valparaíso",
+    "lat": -33.01467211526973,
+    "lng": -71.50389031329473
+  },
+  {
+    "city": "Viña del Mar",
+    "name": "La Resurección",
+    "diocesis": "Valparaíso",
+    "lat": -32.98951943883324,
+    "lng": -71.52434490145384
+  },
+  {
+    "city": "Viña del Mar",
+    "name": "San Pedro",
+    "diocesis": "Valparaíso",
+    "lat": -33.025715764248666,
+    "lng": -71.557940529021
+  },
+  {
+    "city": "Viña del Mar",
+    "name": "Vida Nueva",
+    "diocesis": "Valparaíso",
+    "lat": -33.037139651832256,
+    "lng": -71.5104564968491
+  },
+  {
+    "city": "Reñaca-Concón",
+    "name": "San Andrés",
+    "diocesis": "Valparaíso",
+    "lat": -32.9305771375745,
+    "lng": -71.51473962732369
+  },
+  {
+    "city": "Quilpué",
+    "name": "Emanuel",
+    "diocesis": "Valparaíso",
+    "lat": -33.04303554975445,
+    "lng": -71.43235679556065
+  },
+  {
+    "city": "Villa Alemana",
+    "name": "San Esteban",
+    "diocesis": "Valparaíso",
+    "lat": -33.047022536426475,
+    "lng": -71.37397625731991
+  },
+  {
+    "city": "Santiago Centro",
+    "name": "Santiago Apóstol",
+    "diocesis": "Santiago",
+    "lat": -33.437224729087575,
+    "lng": -70.64223294531597
+  },
+  {
+    "city": "Santiago Centro",
+    "name": "Santiago Apóstol",
+    "diocesis": "Santiago",
+    "lat": -33.437224729087575,
+    "lng": -70.64223294531597
+  },
+  {
+    "city": "Providencia",
+    "name": "Providencia",
+    "diocesis": "Santiago",
+    "lat": -33.42065521217848,
+    "lng": -70.60407035231286
+  },
+  {
+    "city": "Las Condes",
+    "name": "La Trinidad",
+    "diocesis": "Santiago",
+    "lat": -33.39959085981909,
+    "lng": -70.5640264849677
+  },
+  {
+    "city": "La Florida",
+    "name": "San Lucas",
+    "diocesis": "Santiago",
+    "lat": -33.51219090432598,
+    "lng": -70.60097548701282
+  },
+  {
+    "city": "La Reina",
+    "name": "San Andrés",
+    "diocesis": "Santiago",
+    "lat": -33.4372817166601,
+    "lng": -70.55095220822346
+  },
+  {
+    "city": "Lo Prado",
+    "name": "Epifanía",
+    "diocesis": "Santiago",
+    "lat": -33.44378655431294,
+    "lng": -70.73234317035364
+  },
+  {
+    "city": "San Joaquín",
+    "name": "El Salvador",
+    "diocesis": "Santiago",
+    "lat": -33.50270348169996,
+    "lng": -70.63621956371968
+  },
+  {
+    "city": "Renca",
+    "name": "Buenas Nuevas",
+    "diocesis": "Santiago",
+    "lat": -33.406193004052454,
+    "lng": -70.71314519273365
+  },
+  {
+    "city": "Renca",
+    "name": "Resurección",
+    "diocesis": "Santiago",
+    "lat": -33.412543513391995,
+    "lng": -70.69289304202954
+  },
+  {
+    "city": "Conchalí",
+    "name": "Emanuel",
+    "diocesis": "Santiago",
+    "lat": -33.3843747990907,
+    "lng": -70.65903130032078
+  },
+  {
+    "city": "Maipú",
+    "name": "San Pablo",
+    "diocesis": "Santiago",
+    "lat": -33.505976930819024,
+    "lng": -70.76039773730746
+  },
+  {
+    "city": "Las Condes",
+    "name": "Cantagallo",
+    "diocesis": "Santiago",
+    "lat": -33.37769077635571,
+    "lng": -70.50408492906594
+  },
+  {
+    "city": "Vitacura",
+    "name": "Iglesia Cristo Redentor Vitacura",
+    "diocesis": "Santiago",
+    "lat": -33.390241731312585,
+    "lng": -70.5601335198833
+  },
+  {
+    "city": "Peñalolen",
+    "name": "Peñalolen",
+    "diocesis": "Santiago",
+    "lat": -33.50854227783621,
+    "lng": -70.54603987726514
+  },
+  {
+    "city": "Calera de Tango",
+    "name": "Juan Bautista",
+    "diocesis": "Santiago",
+    "lat": -33.6717141067458,
+    "lng": -70.84876382216902
+  },
+  {
+    "city": "Ñuñoa",
+    "name": "Cristo Redentor",
+    "diocesis": "Santiago",
+    "lat": -33.44361162771058,
+    "lng": -70.57451586248109
+  },
+  {
+    "city": "Puente Alto",
+    "name": "Iglesia Puente",
+    "diocesis": "Santiago",
+    "lat": -33.58514812223115,
+    "lng": -70.58090790131286
+  },
+  {
+    "city": "Pudahuel",
+    "name": "San Mateo",
+    "diocesis": "Santiago",
+    "lat": -33.44832847462886,
+    "lng": -70.8456601336385
+  },
+  {
+    "city": "Rancagua",
+    "name": "La Trinidad",
+    "diocesis": "Santiago",
+    "lat": -34.18231597660502,
+    "lng": -70.72191996031482
   }
 ]
