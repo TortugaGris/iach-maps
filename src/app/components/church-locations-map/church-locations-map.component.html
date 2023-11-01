@@ -1,3 +1,8 @@
 <ng-container *ngIf="data$ | async as data">
-  <svg id="church-location-map" [attr.width]="width" [attr.height]="height"></svg>
+  <svg id="church-location-map" [attr.width]="width" [attr.height]="height">
+    <g>
+      <path *ngFor="let feature of data.features" [attr.d]="path(feature)" stroke="black"></path>
+    </g>
+  </svg>
+  <!-- {{data.features | json}} -->
 </ng-container>
